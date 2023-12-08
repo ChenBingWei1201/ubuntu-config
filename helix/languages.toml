@@ -1,0 +1,6 @@
+[language-server.mylang-lsp]
+command = "mylang-lsp"
+
+[[language]]
+name = "rust"
+auto-format = false
