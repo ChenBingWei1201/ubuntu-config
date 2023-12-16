@@ -1,0 +1,41 @@
+[user]
+	email = rain4030633@gmail.com
+  name = ChenBingWei1201
+[alias]
+  st = status -sb
+  a = add
+  aa = add --all
+  ua = restore --staged
+  cm = commit -m 
+  cam = commit -a -m 
+  amend = commit --amend
+  f = fetch
+  fa = fetch --all
+  rb = rebase
+  cp = cherry-pick
+  p = push
+  pushf = push --force-with-lease
+  co = checkout
+  sw = switch
+  br = branch
+  brl = branch -l 
+  brr = branch -r 
+  wt = worktree
+  sa = stash apply
+  ss = stash push
+  sp = stash pop
+  sl = stash list --pretty=format:\"%C(red)%h%C(reset) - %C(dim yellow)(%C(bold magenta)%gd%C(dim yellow))%C(reset) %<(70, trunc)%s %C(green)(%cr) %C(bold blue)<%an>%C(reset)\"
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  llog = log --graph --name-status --pretty=format:\"%C(red)%h %C(reset)(%cd) %C(green)%an %Creset%s %C(yellow)%d%Creset\" --date=relative
+  sub = submodule
+  zip = archive HEAD --output
+  tgz = archive --format=tgz HEAD --output
+  bs = bisect
+[init]
+  defaultBranch = main
+[core]
+  excludesfile = /Users/ChenBingWei1201/.gitignore
+  editor = nvim
+  pager = delta 
+  autocrif = false
+
