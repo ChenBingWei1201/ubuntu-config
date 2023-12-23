@@ -1,0 +1,26 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 16,
+  "files.autoSave": "afterDelay",
+  "markdown.preview.fontSize": 16,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "files.autoGuessEncoding": true,
+  "workbench.editor.languageDetection": false,
+  "editor.definitionLinkOpensInPeek": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
