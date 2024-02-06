@@ -12,21 +12,26 @@ local opts = {
     "css",
     "prisma",
 
-    "markdown",
-    "json",
-    "yaml",
-    "kdl",
-    "make",
-    "cmake",
-    "gitattributes",
-    "gitignore",
-    "dockerfile",
-    "graphql",
-
     "c",
     "cpp",
     "rust",
     "go",
+
+    "typst",
+    "markdown",
+    "markdown_inline",
+    "json",
+    "yaml",
+    "kdl",
+    "graphql",
+
+    "vimdoc",
+    "gitattributes",
+    "gitignore",
+
+    "make",
+    "cmake",
+    "dockerfile",
   },
 
   autotag = {
