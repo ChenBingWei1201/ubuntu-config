@@ -1,7 +1,6 @@
 -- All plugins have lazy=true by default,to load a plugin on startup just lazy=false
 -- List of all default plugins & their definitions
 local default_plugins = {
-
   "nvim-lua/plenary.nvim",
 
   {
@@ -264,9 +263,17 @@ local default_plugins = {
 
   {
     "askfiy/visual_studio_code",
-    priority = 100,
+    -- priority = 100,
     config = function()
       vim.cmd [[colorscheme visual_studio_code]]
+    end,
+  },
+
+  {
+    "Mofiqul/vscode.nvim",
+    priority = 100,
+    config = function()
+      vim.cmd [[colorscheme vscode]]
     end,
   },
 }

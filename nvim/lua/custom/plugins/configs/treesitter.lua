@@ -10,6 +10,7 @@ local opts = {
     "tsx",
     "html",
     "css",
+    "prisma",
 
     "markdown",
     "json",
