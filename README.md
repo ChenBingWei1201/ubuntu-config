@@ -1,8 +1,4 @@
-# ubuntu-config
+# nvim config
 
-## my ubuntu .config for:
-
-- nvim
-- kitty
-- helix
-- fish
+credit from [madmaxieee](https://github.com/madmaxieee)/[nvim-config](https://github.com/madmaxieee/nvim-config.git)
+and add some personal settings
