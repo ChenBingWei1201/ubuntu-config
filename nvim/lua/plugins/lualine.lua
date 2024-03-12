@@ -66,13 +66,13 @@ return {
   opts = {
     options = {
       globalstatus = true,
-      section_separators = "",
+      section_separators = { left = "", right = "" },
       refresh = {
         statusline = 250,
         tabline = 1000,
         winbar = 1000,
       },
-      component_separators = "▕%##",
+      component_separators = { left = "", right = "" },
     },
     sections = {
       lualine_a = {
@@ -97,5 +97,6 @@ return {
         "location",
       },
     },
+    tabline = {},
   },
 }
