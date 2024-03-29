@@ -73,6 +73,7 @@ return {
         winbar = 1000,
       },
       component_separators = { left = "", right = "" },
+      show_devicons = true,
     },
     sections = {
       lualine_a = {
@@ -97,6 +98,15 @@ return {
         "location",
       },
     },
-    tabline = {},
+    tabline = {
+      lualine_a = { "buffers" },
+      lualine_b = {},
+      lualine_c = {},
+      lualine_x = {},
+      lualine_y = {},
+      lualine_z = {},
+      winbar = {},
+      inactive_winbar = {}
+    },
   },
 }
